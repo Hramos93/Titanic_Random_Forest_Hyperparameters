@@ -2,6 +2,6 @@
  
  model clasification with 83% accuracy
 
-![Model Accuracy](img\Accuracy.JPG)
+![Model Accuracy](./img/Accuracy.JPG)
 
-![ROC](img\ROC.JPG)
+![ROC](./img/ROC.JPG)
