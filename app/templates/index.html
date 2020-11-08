@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="{{url_for('static', filename = 'css/bootstrap.min.css')}}">
+  <title>Document</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Hramos</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+        
+    </div>
+  </nav>
+
+  <header class="jumbotron">
+    <div class="container">
+      <div class="row row-header">
+        <div class="col-12 col-sm-6">
+          <h1>Titanic historia de un desastre</h1>
+          <p> Un modelo de clasificación inspirando en entender como las caracteristicas de los pasajeros han podido determinar su sobreviviencia, este tipo de tareas busca conocer en el fondo cuales son las debilidades que no han sido cubierta por los diseños y atacarlas de manera de reducir la cantidad de fallecidos en eventos desastrosos.</p>
+        </div>
+
+      </div> 
+    </div>
+  </header>
+<div class = "container">
+  <div class="row row-header">
+  <div class="col-12 col-sm-3">
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+  <label class="form-check-label" for="exampleRadios1">
+    Hombre
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+  <label class="form-check-label" for="exampleRadios2">
+    Mujer
+  </label>
+      </div>
+    </div>
+    
+  </div>
+</div>
+<div class = "container">
+  <div class="col-12 col-sm-6">
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+      <label class="form-check-label" for="exampleRadios1">
+        Primera Clase
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+      <label class="form-check-label" for="exampleRadios2">
+        Segunda Clase
+      </label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option3">
+        <label class="form-check-label" for="exampleRadios3">
+              Tercera Clase
+        </label>
+    </div>
+  </div>
+</div>
+
+<script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+</body>
+</html>
